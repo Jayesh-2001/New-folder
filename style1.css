@@ -1,0 +1,77 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+.row{
+    background-color: white;
+    border-radius: 33px;
+    box-shadow: 12px 12px 27px;
+    width: auto;
+    height: 37.5rem;
+}
+img{
+    width: 130%;
+    height: 37.5rem;
+    border-top-left-radius: 33px;
+    border-bottom-left-radius: 33px;
+    /* border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%; */
+    
+}
+
+.login h1{
+    font-size: 3rem;
+    font-weight: 300;
+}
+.inp{
+    height: 50px;
+    width: 55%;
+    outline: none;
+    border-radius: 60px;
+    box-shadow: -26px -19px 30px -19px rgba(0, 0, 0, 0.45);
+    background: radial-gradient(circle, rgba(84,68,162,1) 0%, rgba(204,199,222,1) 9%, rgba(221,221,221,1) 100%);
+}
+
+.btn1{
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 60px;
+    background-color: #006cff;
+    color: white;
+}
+.btn1:hover{
+    background-color:#d9ffd8;
+    color:#006cff;
+    transition: linear 0.5s;
+}
+
+.fa-facebook{
+    padding: 10px;
+    font-size: 30px;
+}
+
+.fa-facebook:hover{
+    color: blue;
+}
+.fa-google{
+    padding: 10px;
+    font-size: 30px;
+}
+
+.fa-google:hover{
+    color: rgb(221, 64, 64);
+}
+.fa-twitter{
+    padding: 10px;
+    font-size: 30px;
+}
+
+.fa-twitter:hover{
+    color: rgb(100, 212, 240);
+}
+
+p{
+    padding-top: 20px;
+}
